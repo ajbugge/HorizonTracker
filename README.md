@@ -6,4 +6,4 @@ Article about this method and workflow: Bugge et al., 2019 [Geophysics]
 
 
 
-![Image description](Figure5.png)
+![DTW](Figure5.png)
