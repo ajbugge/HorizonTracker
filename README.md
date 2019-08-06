@@ -6,4 +6,4 @@ Article about this method and workflow: Bugge et al., 2019 [Geophysics]
 
 
 
-![Image description](C:\Users\Aina\Documents\PhD\Fault blocks article\final submission\Figure5)
+![Image description](C:/Users/Aina/Documents/PhD/Fault blocks article/final submission/Figure5)
