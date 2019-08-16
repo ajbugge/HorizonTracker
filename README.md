@@ -1,8 +1,8 @@
 # HorizonTracker<br/>
 <br/>
 Code for the paper <br/>
-## Automatic extraction of dislocated horizons from 3D seismic data using non-local trace matching<br/>
-*Aina Juell Bugge, Jan Erik Lie, Andreas Kjelsrud Evensen, Jan Inge Faleide, and Stuart Clark <br/>
+__Automatic extraction of dislocated horizons from 3D seismic data using non-local trace matching__ <br/>
+_Aina Juell Bugge, Jan Erik Lie, Andreas Kjelsrud Evensen, Jan Inge Faleide, and Stuart Clark_ <br/>
 
 Geophysics, 2019. Contact: aina.juell.bugge@gmail.com<br/>
 <br/>
