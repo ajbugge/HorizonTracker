@@ -7,7 +7,7 @@ Code for the paper<br/>
 *Aina Juell Bugge, Jan Erik Lie, Andreas Kjelsrud Evensen, Jan Inge Faleide, and Stuart Clark*<br/>
 Geophysics, 2019. Contact: aina.juell.bugge@gmail.com<br/>
 <br/>
-This repository contains python code and jupyter notebook for data-driven seismic horizon tracking using non-local dynamic time warping and unwrapped instantaneous phase. The jupyter notebook includes a tutorial with a small seismic survey.<br/>
+This repository contains python code and jupyter notebook for data-driven seismic horizon tracking using non-local dynamic time warping and unwrapped instantaneous phase. The jupyter notebook includes a tutorial with a small seismic survey. To test thehorizon tracker for other seismic volumes, upload using segyio and name the segy seismic_data.<br/>
 
 
 ![Tutorial results](Tutorial_results.png)<br/>
