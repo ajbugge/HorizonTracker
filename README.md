@@ -5,7 +5,7 @@ This repository contains python code and jupyter notebook for Data-driven seismi
 
 ![Tutorial results](Tutorial_results.png)<br/>
 
-Required python packages
+Required python packages: <br/>
 -- numpy<br/>
 -- scipy<br/>
 -- matplotlib<br/>
