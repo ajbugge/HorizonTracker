@@ -7,7 +7,7 @@ import numpy as np
 import time
 from tslearn import metrics
 from scipy.signal import argrelextrema
-
+#Author: Aina Juell Bugge. aina.juell.bugge@gmail.com
 def CreateGrid (seismic_data, grid_step):
     xls=[]
     ils=[]
@@ -33,13 +33,11 @@ def CreateGrid (seismic_data, grid_step):
     return grid
 
 
-#grid_step2=5
-#horizontal_warp_distance =100
 
 import sys
 import time
 from IPython.display import clear_output
-
+#Author: Aina Juell Bugge. aina.juell.bugge@gmail.com
 def DynamicTimeWarping (seismic_data, grid, window_width):
     path_info=[]
     start = time.time()
@@ -74,6 +72,7 @@ def DynamicTimeWarping (seismic_data, grid, window_width):
 
 import time
 from scipy.signal import argrelextrema
+#Author: Aina Juell Bugge. aina.juell.bugge@gmail.com
 def ExtractHorizon (seismic_data, grid, path_info, events, event_spacing_parameter):
     temporary_horizons=[]
     start = time.time()
@@ -153,7 +152,7 @@ def ExtractHorizon (seismic_data, grid, path_info, events, event_spacing_paramet
 
 
 
-
+#Author: Aina Juell Bugge. aina.juell.bugge@gmail.com
 def HorizonAccuracyFilter (seismic_data, input_horizons, grid, path_info,print_output, hitrate_per_trace_percent=0, hardcoded_minimum_hitrate=0):
     # hitrate_per_trace_percent is calculated from how many times that trace is revisited. 
     # hardcoded_minimum_hitrate is a hardcoded integer, such as 1 or 2'''
@@ -256,7 +255,7 @@ def HorizonAccuracyFilter (seismic_data, input_horizons, grid, path_info,print_o
 
 from matplotlib import pyplot as plt
 from skimage.morphology import square, disk, dilation
-
+#Author: Aina Juell Bugge. aina.juell.bugge@gmail.com
 def ShowHorizon (seismic_data, horizons, horizon_number, view, line_number, selem):
     correlated_cube= np.zeros(seismic_data.shape, dtype=np.float32)
     if horizon_number == 'all':
@@ -311,7 +310,7 @@ def ShowHorizon (seismic_data, horizons, horizon_number, view, line_number, sele
 
 import time
 from IPython.display import clear_output
-
+#Author: Aina Juell Bugge. aina.juell.bugge@gmail.com
 def regrid_horizons_DTW(seismic_data, grid, grid_step, filtered_horizons_binary, dense_grid, window_size):
     horizontal_warp_distance=window_size*grid_step
     dense_path_info=[]
@@ -364,8 +363,7 @@ def regrid_horizons_DTW(seismic_data, grid, grid_step, filtered_horizons_binary,
 
 
 from scipy import interpolate
-
-
+#Author: Aina Juell Bugge. aina.juell.bugge@gmail.com
 def interpolateHorizons2D (seismic_data,unwrapped3D, horizons, dense_grid_step, phase_criterion, vertical_criterion, horizontal_criterion):
     interpolated_horizons=[]
     for horizon_number in range (0, len(horizons)):
@@ -488,7 +486,7 @@ def interpolateHorizons2D (seismic_data,unwrapped3D, horizons, dense_grid_step, 
 
 
 
-
+#Author: Aina Juell Bugge. aina.juell.bugge@gmail.com
 def interpolateHorizons3D (unwrapped3D, horizons, dense_grid_step, phase_criterion, vertical_criterion, close_neighbors):
     interpolated_horizons=[]
     from scipy import interpolate
