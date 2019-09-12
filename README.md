@@ -24,7 +24,8 @@ Required python packages: <br/>
 <br/>
 
 
-###Citation
+### Citation<br/>
+
 For any use this code, please cite the paper this code is based on: "Automatic extraction of dislocated horizons from 3D seismic data using non-local trace matching"
 
 
