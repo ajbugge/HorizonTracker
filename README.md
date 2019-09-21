@@ -19,7 +19,6 @@ Required python packages: <br/>
 -- matplotlib<br/>
 -- skimage<br/>
 -- tslearn<br/>
--- IPython.display<br/>
 <br/>
 
 
