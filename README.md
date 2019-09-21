@@ -18,10 +18,8 @@ Required python packages: <br/>
 -- scipy<br/>
 -- matplotlib<br/>
 -- skimage<br/>
--- time<br/>
 -- tslearn<br/>
 -- IPython.display<br/>
--- sys<br/>
 <br/>
 
 
