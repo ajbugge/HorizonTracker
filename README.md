@@ -5,8 +5,9 @@ Code for the paper<br/>
 
 ### Automatic extraction of dislocated horizons from 3D seismic data using non-local trace matching <br/>
 *Aina Juell Bugge, Jan Erik Lie, Andreas Kjelsrud Evensen, Jan Inge Faleide, and Stuart Clark*<br/>
-Geophysics, 2019. Contact: aina.juell.bugge@gmail.com<br/>
+Geophysics, VOL. 84, NO. 6 (NOVEMBER-DECEMBER 2019). Contact: aina.juell.bugge@gmail.com<br/>
 <br/>
+
 This repository contains python code and jupyter notebook for data-driven seismic horizon tracking using non-local dynamic time warping and unwrapped instantaneous phase. In order to test the code, we have uploaded a small (<25 MB) seismic survey. To use your own seismic data upload segy data using segyio and name it "seismic_data".<br/>
 
 
